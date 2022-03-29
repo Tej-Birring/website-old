@@ -4,7 +4,7 @@
     :additional-info="[
       'www.tejbirring.com',
       '+44 (0) 7472 239 190',
-      'tej.birring@gmail.com',
+      'tejbirring@gmail.com',
     ]"
     :nav-options="navOptions"
   />
