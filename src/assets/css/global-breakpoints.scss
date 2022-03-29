@@ -1,0 +1,29 @@
+@media(max-width: $breakpoint-portrait-tablet) {
+  #app {
+    //overflow: hidden;
+  }
+
+  html {
+    font-size: .6rem;
+  }
+
+  .main-content {
+    padding: 1.5rem !important;
+
+    div.fixed-width {
+      width: 100% !important;
+      max-width: none !important;
+    }
+  }
+}
+
+//@media(max-width: $breakpoint-portrait-tablet) {
+//  .main-content {
+//    padding: .5rem !important;
+//
+//    div.fixed-width {
+//      width: 100% !important;
+//      max-width: none !important;
+//    }
+//  }
+//}

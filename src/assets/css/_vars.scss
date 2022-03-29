@@ -1,0 +1,21 @@
+$theme-color-1: #fdfffc;
+$theme-color-2: #00174F;//#235789;
+$theme-color-3: #CC0C2F;//#c1292e;
+$theme-color-4: #fcc209;//#ffd700;//#eeb609;//;
+$theme-color-5: #161925;
+
+$theme-color-grey-1: #dbd9d2;
+$theme-color-grey-2: scale_color($theme-color-grey-1, $lightness: -35%);
+
+$theme-color-success: #6cc070;
+$theme-color-fail: 	#ff6633;
+
+$overlay: transparentize(#000, 0.7);
+
+$breakpoint-mobile: 375px;
+$breakpoint-portrait-tablet: 600px; // and
+$breakpoint-landscape-tablet: 768px;
+$breakpoint-lg-screen: 992px;
+$breakpoint-xl-screen: 1200px;
+
+$std-margin-bottom: 1.2rem;

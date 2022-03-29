@@ -1,0 +1,194 @@
+$control-border-width: 2px;
+
+.button-row-end {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+
+  button {
+    margin-right: 2rem
+  }
+
+  button:last-child {
+    margin-right: 0;
+  }
+}
+
+.button-row-center {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  button {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+button {
+  border: $control-border-width $theme-color-3 solid;
+  font-size: 1.4rem;
+  font-weight: 600;
+  min-height: 4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: $theme-color-1;
+  text-transform: uppercase;
+  line-height: 1;
+  color: $theme-color-3;
+  font-family: Raleway, sans-serif;
+
+  box-shadow: 0.2rem 0.2rem 0.4rem transparentize($theme-color-grey-1, 0.5);
+
+  i {
+    margin-left: .25rem;
+  }
+
+  &:hover {
+    transition-duration: 0.3s;
+    transition-property: transform;
+    transform: scale(1.2);
+    background-color: $theme-color-4;
+    border-color: $theme-color-3;
+    color: $theme-color-3;
+  }
+
+  &:active {
+    border-color: $theme-color-4;
+  }
+
+  &:focus {
+    border-color: $theme-color-4;
+  }
+}
+
+
+
+
+input[type='text'], textarea {
+  font-family: Raleway, sans-serif;
+  border: $control-border-width $theme-color-3 solid;
+  @media (max-width: $breakpoint-portrait-tablet) {
+    border-width: 0.3rem;
+  }
+  font-size: 1.4rem;
+  font-weight: 600;
+  min-height: 4rem;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  &::placeholder {
+    color: $theme-color-grey-2;
+  }
+
+  &:hover {
+    //background-color: $theme-color-4;
+  }
+
+  &:focus {
+    border-color: $theme-color-4;
+    &::placeholder {
+      color: $theme-color-grey-1;
+    }
+  }
+}
+
+
+
+
+input[type='text']:disabled, button:disabled {
+  border-color: $theme-color-grey-2;
+  color: $theme-color-grey-2;
+  box-shadow: none;
+  cursor: default;
+
+  &:hover {
+    transition-property: none;
+    transform: none;
+    background-color: $theme-color-1;
+    border-color: $theme-color-grey-2;
+    color: $theme-color-grey-2;
+  }
+}
+
+
+
+/* animations */
+$labelHeight: 2rem;
+$paddingForLabel: 2.6rem;
+
+div.has-float-label {
+  position: relative;
+
+  input {
+    height: 6rem;
+  }
+
+  textarea {
+    height: 22rem;
+  }
+
+  input,
+  textarea
+  {
+    width: 100%;
+  }
+
+  input + label,
+  textarea + label
+  {
+    font-size: 1.4rem;
+    display: none;
+    visibility: hidden;
+    background-color: $theme-color-4;
+    height: $labelHeight;
+    text-align: left;
+    padding: .3rem 0 0 1rem;
+    color: $theme-color-3;
+    animation: .3s label-appear ;
+  }
+
+  input:focus + label,
+  textarea:focus + label
+  {
+    display: block;
+    position: absolute;
+    //margin-top: calc(-#{$inputHeight});
+    top: 2px;
+    width: 100%;
+    visibility: visible;
+  }
+
+  input:focus,
+  textarea:focus
+  {
+    padding-top: $paddingForLabel;
+    animation: .3s input-expand ease-in;
+    &::placeholder {
+      visibility: hidden;
+    }
+  }
+}
+
+@keyframes input-expand {
+  from {
+    padding-top: 0;
+    color: transparent;
+  }
+  to {
+    padding-top: $paddingForLabel;
+    color: $theme-color-5;
+  }
+}
+
+@keyframes label-appear {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: $labelHeight;
+    opacity: 1;
+  }
+}
