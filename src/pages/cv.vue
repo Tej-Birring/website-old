@@ -43,6 +43,9 @@
       <h4 class="text-center" tabindex="0" nogrow>Frameworks & Libs | Web Frontend + Jamstack</h4>
       <ul class="flat">
         <li>Vue.js 2/3</li>
+        <li>VueX</li>
+        <li>VueX</li>
+        <li>Pinia</li>
         <li>Svelte</li>
         <li>D3.js</li>
         <li>Bootstrap CSS</li>
@@ -76,6 +79,7 @@
           <li>Amazon EC2</li>
           <li>Heroku</li>
           <li>Netlify</li>
+          <li>WebSockets</li>
         </ul>
 
       <h4 class="text-center" tabindex="0" nogrow>Execution Environments | HW</h4>
@@ -113,6 +117,9 @@
         <li>Git</li>
         <li>Mercurial</li>
         <li>SSH</li>
+        <li>"Raw" Sockets (MAC-level)</li>
+        <li>UDP/TCP Sockets</li>
+        <li>Unix Sockets</li>
       </ul>
     </section>
 
