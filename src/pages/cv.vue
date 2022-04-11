@@ -65,6 +65,7 @@
           <li>Crow C++</li>
           <li>Mongoose</li>
           <li>Apollo GraphQL Server</li>
+          <li>Laravel</li>
         </ul>
 
         <h4 class="text-center" tabindex="0" nogrow>Web platforms, APIs, CMS, etc.</h4>
