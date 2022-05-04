@@ -17,21 +17,22 @@
 
       <h4 class="text-center" tabindex="0" nogrow>Programming Languages</h4>
       <ul class="flat">
-        <li>C++ 11/14/17/20</li>
-        <li>C</li>
         <li>X86-64 Assembly</li>
+        <li>C</li>
+        <li>C++ 11/14/17/20</li>
         <li>Bash</li>
         <li>MATLAB®</li>
         <li>Golang</li>
         <li>HTML</li>
         <li>CSS</li>
         <li>SCSS</li>
+        <li>SASS</li>
         <li>JavaScript/ECMAScript</li>
         <li>TypeScript</li>
         <li>C#</li>
       </ul>
 
-      <h4 class="text-center" tabindex="0" nogrow>Frameworks & Libs | Native</h4>
+      <h4 class="text-center" tabindex="0" nogrow>Native Frameworks & Libs</h4>
       <ul class="flat">
         <li>Boost C++</li>
         <li>POCO C++</li>
@@ -40,10 +41,9 @@
         <li>Crow C++</li>
       </ul>
 
-      <h4 class="text-center" tabindex="0" nogrow>Frameworks & Libs | Web Frontend + Jamstack</h4>
+      <h4 class="text-center" tabindex="0" nogrow>Web Frontend + Jamstack</h4>
       <ul class="flat">
         <li>Vue.js 2/3</li>
-        <li>VueX</li>
         <li>VueX</li>
         <li>Pinia</li>
         <li>Svelte</li>
@@ -57,9 +57,10 @@
         <li>Apollo GraphQL Client</li>    
         <li>Gridsome</li>
         <li>VuePress</li>
+        <li>Forestry</li>
       </ul>
 
-        <h4 class="text-center" tabindex="0" nogrow>Frameworks & Libs | Web Backend</h4>
+        <h4 class="text-center" tabindex="0" nogrow>Web Backend</h4>
         <ul class="flat">
           <li>Express</li>
           <li>Crow C++</li>
@@ -68,19 +69,26 @@
           <li>Laravel</li>
         </ul>
 
-        <h4 class="text-center" tabindex="0" nogrow>Web platforms, APIs, CMS, etc.</h4>
+        <h4 class="text-center" tabindex="0" nogrow>Databases, CMS, APIs, etc.</h4>
         <ul class="flat">
+          <li>MySQL</li>
+          <li>Redis</li>
+          <li>MongoDB</li>
+          <li>Neo4j</li>
           <li>Google Firebase</li>
           <li>Supabase</li>
           <li>Airtable</li>
           <li>Notion</li>
-          <li>Forestry</li>
-          <li>AWS Lambda</li>
-          <li>Google Cloud Functions</li>
-          <li>Amazon EC2</li>
-          <li>Heroku</li>
-          <li>Netlify</li>
-          <li>WebSockets</li>
+        </ul>
+
+        <h4 class="text-center" tabindex="0" nogrow>Execution Environments | SW</h4>
+        <ul class="flat">
+            <li>Web Browsers</li>
+            <li>Node.js Runtime</li>
+            <li>.NET Framework CLR</li>
+            <li>Various Linux kernel-based OSes</li>
+            <li>Apple macOS (XNU/Darwin-based OS)</li>
+            <li>Microsoft Windows</li>
         </ul>
 
       <h4 class="text-center" tabindex="0" nogrow>Execution Environments | HW</h4>
@@ -90,22 +98,13 @@
         <li>Atmel AVR MPUs</li>
       </ul>
 
-        <h4 class="text-center" tabindex="0" nogrow>Execution Environments | SW</h4>
-        <ul class="flat">
-            <li>Node.js</li>
-            <li>.NET Framework</li>
-            <li>Linux kernel-based OSes</li>
-            <li>Apple macOS (XNU/Darwin-based)</li>
-            <li>Microsoft Windows</li>
-        </ul>
-
-      <h4 class="text-center" tabindex="0" nogrow>Codebases</h4>
+      <!-- <h4 class="text-center" tabindex="0" nogrow>Codebases</h4>
       <ul class="flat">
         <li>srsLTE</li>
         <li>OpenAirInterface</li>
         <li>Android Open Source Project (AOSP)</li>
         <li>Linux kernel</li>
-      </ul>
+      </ul> -->
 
       <h4 class="text-center" tabindex="0" nogrow>Others</h4>
       <ul class="flat">
@@ -121,6 +120,13 @@
         <li>"Raw" Sockets (MAC-level)</li>
         <li>UDP/TCP Sockets</li>
         <li>Unix Sockets</li>
+        <li>WebSockets</li>
+        <li>Jest</li>
+        <li>AWS Lambda</li>
+        <li>Google Cloud Functions</li>
+        <li>Amazon EC2</li>
+        <li>Heroku</li>
+        <li>Netlify</li>
       </ul>
     </section>
 
@@ -132,16 +138,16 @@
       </p>
 
       <section>
-        <h3 tabindex="0" nogrow>Freelance SW & Visualisation Development</h3>
+        <h3 tabindex="0" nogrow>Freelance SW & Visualisation Developer</h3>
         <p class="text-muted">Sep 2021 - Present</p>
         <br>
         <p>
-          Development of (mainly Vue-based) web applications and interactive information visualisation solutions.
+          Development of (mainly Vue-based) web applications and interactive visualisation solutions.
         </p>
       </section>
 
       <section>
-        <h3 tabindex="0" nogrow>Founder @ <a href="https://www.hayabusa.ink" class="no-wrap" target="_blank">Hayabusa</a></h3>
+        <h3 tabindex="0" nogrow>Founder @ <a href="https://www.hayabusa.ink" class="no-wrap" target="_blank">Hayabusa Journals</a></h3>
         <p class="text-muted">Sep 2021 - Present</p>
         <br>
         <p>
@@ -150,7 +156,7 @@
       </section>
 
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ Garrison</h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.garrison.com/" class="no-wrap" target="_blank">Garrison Technologies</a></h3>
         <p class="text-muted">Apr 2021 - Sep 2021</p>
         <br>
         <p>
@@ -166,7 +172,7 @@
         </p>
       </section>
 
-      <section>
+      <!-- <section>
         <h3 tabindex="0" nogrow>Founder @ <a href="https://www.panjab.institute" class="no-wrap" target="_blank">Panjāb Institute</a></h3>
         <p class="text-muted">Dec 2019 - Present</p>
         <br>
@@ -188,19 +194,19 @@
             Virtual reference library.
           </li>
         </ul>
-      </section>
+      </section> -->
 
       <section>
-        <h3 tabindex="0" nogrow>Founder @ FULLY, <span class="no-wrap">Freelance SW Development</span></h3>
+        <h3 tabindex="0" nogrow>Founder @ FULLY, <span class="no-wrap">Freelance SW Developer</span></h3>
         <p class="text-muted">Dec 2019 - Apr 2021</p>
         <br>
         <p>
           Conceptualizing, designing, and prototyping a holistic subscription-based life planning and knowledge management web app.<br/>
-          <em>Accompanied by training in web technologies and related freelance software development.</em>
+          <em>Accompanied by intensive training in web technologies and freelance software development.</em>
         </p>
       </section>
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ HME Clear-Com</h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.clearcom.com/" class="no-wrap" target="_blank">HME Clear-Com</a></h3>
         <p class="text-muted">Nov 2018 - Dec 2019</p>
         <ul class="list">
           <li>Integrated custom-manufactured multi-touch TFT LCDs into the new hardware platform/product range.</li>
@@ -237,7 +243,7 @@
         </ul>
       </section>
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ Caldero</h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="http://www.caldero.co.uk/" class="no-wrap" target="_blank">Caldero</a></h3>
         <p class="text-muted">Sep 2017 - Nov 2018</p>
         <ul class="list">
             <li>
@@ -261,7 +267,7 @@
         </ul>
       </section>
       <section>
-        <h3 tabindex="0" nogrow>OpenAirInterface Programmer (RA) @ University of Kent</h3>
+        <h3 tabindex="0" nogrow>OpenAirInterface Programmer (RA) @ <a href="https://www.kent.ac.uk/engineering" class="no-wrap" target="_blank">University of Kent</a></h3>
         <p class="text-muted">Jul 2016 - Sep 2017</p>
           <ul class="list">
               <li>
@@ -342,13 +348,13 @@
       <h3 tabindex="0" nogrow>Gateway Sixth-Form College, Leicester</h3>
       <p class="text-muted">Sep 2009 - Jun 2011</p>
       <br>
-      <p>
+      <!-- <p>
         <span class="text-theme-2">A2</span> Computing,
         <span class="text-theme-2">A2</span> Biology,
         <span class="text-theme-2">AS</span> Electronics, and
         <span class="text-theme-2">AS</span> Chemistry
       </p>
-      <br>
+      <br> -->
       <p><i class="feather-award"></i> <em>Awards:</em></p>
       <ul class="list">
         <li>
@@ -384,7 +390,7 @@
                 </li>
             </ul>
           </li>
-        <!-- <li>Feel free to send me a realistic coding problem, — or, even better — a mini-project! 🙂</li> -->
+        <li>Feel free to send me a realistic coding problem, — or, much better — a mini-project! 🙂</li>
         <li><strong>Citizenship:</strong> British</li>
         <li>I hold a full "clean" UK driver’s license.</li>
       </ul>
