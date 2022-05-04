@@ -156,7 +156,7 @@
       </section>
 
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.garrison.com/" class="no-wrap" target="_blank">Garrison Technologies</a></h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.garrison.com" class="no-wrap" target="_blank">Garrison Technologies</a></h3>
         <p class="text-muted">Apr 2021 - Sep 2021</p>
         <br>
         <p>
@@ -206,7 +206,7 @@
         </p>
       </section>
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.clearcom.com/" class="no-wrap" target="_blank">HME Clear-Com</a></h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="https://www.clearcom.com" class="no-wrap" target="_blank">HME Clear-Com</a></h3>
         <p class="text-muted">Nov 2018 - Dec 2019</p>
         <ul class="list">
           <li>Integrated custom-manufactured multi-touch TFT LCDs into the new hardware platform/product range.</li>
@@ -243,7 +243,7 @@
         </ul>
       </section>
       <section>
-        <h3 tabindex="0" nogrow>SW Engineer @ <a href="http://www.caldero.co.uk/" class="no-wrap" target="_blank">Caldero</a></h3>
+        <h3 tabindex="0" nogrow>SW Engineer @ <a href="http://www.caldero.co.uk" class="no-wrap" target="_blank">Caldero</a></h3>
         <p class="text-muted">Sep 2017 - Nov 2018</p>
         <ul class="list">
             <li>
